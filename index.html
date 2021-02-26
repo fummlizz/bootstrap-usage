@@ -1,12 +1,181 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title> Bootsrap design</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-  </head>
-  <body>
-    <<h1>Hello World</h1>
-    <button type="" name="button">submit</button>
-  </body>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Fashionetall</title>
+  <!-- This is bootstrap 4 link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <!-- This is bootstrap 5 link  -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"> -->
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <!-- Local CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Page Icon logo -->
+  <link rel="icon" href="images/favicon.ico">
+  <!-- Awesome Font for vector icon libraries -->
+  <script src="https://kit.fontawesome.com/7d71625748.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+  <section id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar bg-info navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">Fashion et all</a>
+        <!-- <img class="navbar-brand" src="images/brand.jpeg" alt=""> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Download</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <!-- Title -->
+
+      <div class="row">
+
+        <div class="col-lg-6">
+          <!-- this grid divide the full page into two by using "col-lg-6"-->
+
+          <h1>Connect with classy and trendy fashion designers.</h1>
+          <button type="button" class="btn btn-info btn-lg"><i class="fab fa-apple"></i>Download</button>
+          <button type="button" class="btn btn-outline-info btn-lg"><i class="fab fa-google-play"></i>Download</button>
+        </div>
+
+        <div class="col-lg-6">
+
+          <img src="images/ iphone.jpeg" alt="iphone-mockup" width="100%" height="100%">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+
+    <h3>Easy to Connect.</h3>
+    <p>So easy to connect designers without stress, you don't need to bother about the location.</p>
+
+    <h3> Classic Look</h3>
+    <p>We have nice and great fashion brand.</p>
+
+    <h3>Quality Guaranteed .</h3>
+    <p>We provide the most quality and reliable fashion designers.</p>
+
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+    <h2> It's now easy for me to shop for latest outfits without leaving the comfort of my house. Tilda.</h2>
+    <img src="images/funmi.jpeg" alt="lady picture" width="10%">
+    <!-- <img src="http://www.bolc.co.uk/adminpanel/uploads/1477317860itphotos_51155883_l.jpg" alt="lady-profile"> -->
+    <em>Lagos, Nigeria</em>
+
+    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+    <img class="testimonial-image" src="https://www.careergirls.org/wp-content/uploads/2018/05/FashionDesigner_1920x1080.jpg" alt="lady-profile">
+    <em>Beverly, Illinois</em> -->
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <img src="images/zara.png" alt="">
+    <img src="images/logo.jpeg" alt="">
+    <img src="images/download.png" alt="">
+    <img src="images/gucci.jpeg" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2>A Plan for Every Ladies' Needs</h2>
+    <p>Simple and affordable price plans for you and your family.</p>
+
+
+    <h3>Silver</h3>
+    <h2>Free</h2>
+    <p>5 Matches Per Day</p>
+    <p>10 Messages Per Day</p>
+    <p>Unlimited App Usage</p>
+    <button type="button" class="btn btn-info">Sign Up</button>
+
+
+    <h3>Bronze</h3>
+    <h2>#30,000 / mo</h2>
+    <p>Unlimited Matches</p>
+    <p>Unlimited Messages</p>
+    <p>Unlimited App Usage</p>
+    <button type="button" class="btn btn-info">Sign Up</button>
+
+
+    <h3>Gold</h3>
+    <h2>#99,000 / mo</h2>
+    <p>Pirority Listing</p>
+    <p>Unlimited Matches</p>
+    <p>Unlimited Messages</p>
+    <p>Unlimited App Usage</p>
+    <button type="button" class="btn btn-info">Sign Up</button>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3>Find the right Fahion Designer for you Today.</h3>
+    <button type="button" class="btn btn-info">Download</button>
+    <button type="button" class="btn btn-info">Download</button>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <p>© Copyright 2021 Fashionetall</p>
+
+  </footer>
+  <!-- This is jqueryfor bootsrap 4 -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+  <!-- This is jquery for bootstrap 5 -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>  -->
+
+  <!-- or  -->
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> -->
+
+</body>
+
 </html>
