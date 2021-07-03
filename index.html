@@ -17,6 +17,7 @@
   <link rel="icon" href="images/favicon.ico">
   <!-- Awesome Font for vector icon libraries -->
   <script src="https://kit.fontawesome.com/7d71625748.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -26,7 +27,7 @@
     <div class="container-fluid">
       <!-- Nav Bar -->
       <nav class="navbar bg-info navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="">Fashion et all</a>
+        <a class="navbar-brand" href=""> <em>Fashion et all</em></a>
         <!-- <img class="navbar-brand" src="images/brand.jpeg" alt=""> -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -71,16 +72,27 @@
   <!-- Features -->
 
   <section id="features">
+    <div class="row">
 
-    <h3>Easy to Connect.</h3>
-    <p>So easy to connect designers without stress, you don't need to bother about the location.</p>
+      <div class="features-box col-lg-4" "col-md-12">
+        <i class="icon fas fa-check-circle fa-3x"></i>
+        <h3>Easy to Connect.</h3>
+        <p>So easy to connect designers without stress, you don't need to bother about the location.</p>
+      </div>
 
-    <h3> Classic Look</h3>
-    <p>We have nice and great fashion brand.</p>
+      <div class="features-box col-lg-4" "col-md-12">
+        <i class="icon fas fa-bullseye fa-3x"></i>
+        <h3> Classic Look</h3>
+        <p>We have nice and great fashion brand which are quite affordable</p>
+      </div>
 
-    <h3>Quality Guaranteed .</h3>
-    <p>We provide the most quality and reliable fashion designers.</p>
+      <div class="features-box col-lg-4" "col-md-12">
+        <i class="icon fas fa-heart fa-3x"></i>
+        <h3>Quality Guaranteed .</h3>
+        <p>We provide the most quality and reliable fashion designers.</p>
+      </div>
 
+    </div>
   </section>
 
 
@@ -89,9 +101,9 @@
   <section id="testimonials">
 
     <h2> It's now easy for me to shop for latest outfits without leaving the comfort of my house. Tilda.</h2>
-    <img src="images/funmi.jpeg" alt="lady picture" width="10%">
+    <img class="testimonials-img" src="images/funmi.jpeg" alt="lady picture" width="10%">
     <!-- <img src="http://www.bolc.co.uk/adminpanel/uploads/1477317860itphotos_51155883_l.jpg" alt="lady-profile"> -->
-    <em>Lagos, Nigeria</em>
+    <em class="location">Lagos, Nigeria</em>
 
     <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
     <img class="testimonial-image" src="https://www.careergirls.org/wp-content/uploads/2018/05/FashionDesigner_1920x1080.jpg" alt="lady-profile">
@@ -103,10 +115,11 @@
   <!-- Press -->
 
   <section id="press">
-    <img src="images/zara.png" alt="">
-    <img src="images/logo.jpeg" alt="">
-    <img src="images/download.png" alt="">
-    <img src="images/gucci.jpeg" alt="mashable-logo">
+
+    <img class="press-logo" src="images/zara.png" alt="">
+    <img class="press-logo" src="images/logo.jpeg" alt="">
+    <img class="press-logo" src="images/download.png" alt="">
+    <img class="press-logo" src="images/gucci.jpeg" alt="mashable-logo">
 
   </section>
 
@@ -114,34 +127,61 @@
   <!-- Pricing -->
 
   <section id="pricing">
+    <div class="row">
+<!-- <div class="class-group"> -->
 
+
+      <div class="col">
+        <div class="card">
+          <div class="card-header">
+            <h3>Silver</h3>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Free</h5>
+            <p class="card-text">
+              5 Matches Per Day <br>
+              10 Messages Per Day <br>
+              Unlimited App Usage </p>
+            <a href="#" class="btn btn-info">Sign Up</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="card-header">
+            <h3>Bronze</h3>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">#30,000 / mo</h5>
+            <p class="card-text">
+              Unlimited Matches <br>
+              Unlimited Messages <br>
+              Unlimited App Usage </p>
+            <a href="#" class="btn btn-info">Sign Up</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="card-header">
+            <h3>Gold</h3>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">#99,000 / mo</h5>
+            <p class="card-text">
+              Pirority Listing Unlimited Matches <br>
+            Pirority Listing Unlimited Messages <br>
+            Pirority Listing Unlimited App Usage</p>
+            <a href="#" class="btn btn-info"> Sign Up </a>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
     <h2>A Plan for Every Ladies' Needs</h2>
     <p>Simple and affordable price plans for you and your family.</p>
 
-
-    <h3>Silver</h3>
-    <h2>Free</h2>
-    <p>5 Matches Per Day</p>
-    <p>10 Messages Per Day</p>
-    <p>Unlimited App Usage</p>
-    <button type="button" class="btn btn-info">Sign Up</button>
-
-
-    <h3>Bronze</h3>
-    <h2>#30,000 / mo</h2>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button" class="btn btn-info">Sign Up</button>
-
-
-    <h3>Gold</h3>
-    <h2>#99,000 / mo</h2>
-    <p>Pirority Listing</p>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button" class="btn btn-info">Sign Up</button>
 
   </section>
 
